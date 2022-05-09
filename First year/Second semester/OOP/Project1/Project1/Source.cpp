@@ -5,6 +5,18 @@
 using namespace std;
 
 
+/*
+	[TASK]:
+
+	Definiti o clasa Produs care are ca atribute cantitate, pret di nume. Realizati urmatoarele operatii:
+
+		->Supraincarcati operatorul %= care sa permita cresterea pretului cu un procent
+		->Supraincarcati operatorii +=, -= care sa permita cresterea/scaderea cantitatii cu o valoare
+		->Supraincarcati operatorul de scriere pentru a permite afisarea unui produs
+		->Creati un sir de produse si sortati sirul descrescator dupa nume, folositi supraincarcarea operatorilor relationali pentru a compara produsele
+*/
+
+
 int main()
 {
 	Produs** listaProduse;

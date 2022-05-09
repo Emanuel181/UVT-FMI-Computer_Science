@@ -3,6 +3,19 @@
 using namespace std;
 
 
+/*
+    [TASK]:
+
+    Realizati o aplicatie care creeaza clasa Depozit, ce contine o lista de produse.
+
+        ->Adaugati atribute claselor astfel incat sa aiba fiecare cel putin 2-3
+        ->Creati o lista de depozite si identificatii depozitul cu cele mai multe produse
+        -Supraincarcati operatorul de scriere
+        ->Supraincarcati operatorii +=/-= pentru cresterea/scaderea cantitatii unui produs din depozit
+        ->Supraincarcati operatorul [] pentru a obtine informatii despre un produs cu indexul dat.
+*/
+
+
 void init(Depozit**& listaDepozite, unsigned long long &size)
 {
     cout << "Numarul de depozite: "; cin >> size; cin.ignore(); cout << endl;
