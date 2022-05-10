@@ -1,0 +1,25 @@
+8
+Galaxia Trabuc
+12
+Eliptica
+Galaxia Sombrero
+1
+Spirala
+Galaxia Compasul
+5
+Lenticulara
+Galaxia Cometa
+5
+Lenticulara
+Ochiul lui Sauron
+12
+Eliptica
+Galaxia Artificiilor
+20
+Lenticulara
+Obiectul lui Hoag
+67
+Eliptica
+Calea Lactee
+56
+Eliptica
