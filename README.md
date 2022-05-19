@@ -1,5 +1,5 @@
 - 📂 Semester 1
-  - 🧮 Computational Logic
+  - 🧮 [Computational Logic](First%20year/First%20Semester/Computational%20Logic)
   - 💻 Computer Architecture
   - 👨‍💻 Fundamentals of Programming
   - ➕ Maths Fundamentals
