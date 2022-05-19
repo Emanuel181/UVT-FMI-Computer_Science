@@ -8,7 +8,7 @@
   - 📂 [Data Structures and Alghorithms](First%20year/Second%20semester/DSA)
   - 👨‍💻 [Object Oriented Programming](First%20year/Second%20semester/OOP)
   - 📝 Automata Theory
-  - 💻 Individual Project and Team Project
+  - 💻 [Individual Project and Team Project](First%20year/Second%20semester/Individual%20Project%20and%20Team%20Project/Proiect_Programare_Individual)
   - 👨‍💻 Web Programming
   - ➕ Calculus
 
