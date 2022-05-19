@@ -10,8 +10,7 @@
   - 📝 Automata Theory
   - 💻 [Individual Project and Team Project](First%20year/Second%20semester/Individual%20Project%20and%20Team%20Project/Proiect_Programare_Individual)
   - 👨‍💻 Web Programming
-  - ➕ Calculus
-
+  - ➕ [Calculus](First%20year/Second%20semester/Calculus)
 <br>
 <br>
 <br>
