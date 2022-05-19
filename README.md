@@ -3,7 +3,7 @@
   - 💻 [Computer Architecture](First%20year/First%20Semester/Computer%20Architecture)
   - 👨‍💻 Fundamentals of Programming
   - ➕ [Maths Fundamentals](First%20year/First%20Semester/Maths%20Fundamentals)
-  - 📂 Alghorithms and Data Structures
+  - 📂 [Alghorithms and Data Structures](First%20year/First%20Semester/Alghorithms%20and%20Data%20Structures)
 - 📂 Semester 2
   - 📂 [Data Structures and Alghorithms](First%20year/Second%20semester/DSA)
   - 👨‍💻 [Object Oriented Programming](First%20year/Second%20semester/OOP)
