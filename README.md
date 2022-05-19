@@ -5,8 +5,8 @@
   - ➕ Maths Fundamentals
   - 📂 Alghorithms and Data Structures
 - 📂 Semester 2
-  - 📂 Data Structures and Alghorithms
-  - 👨‍💻 Object Oriented Programming
+  - 📂 [Data Structures and Alghorithms](First%20year/Second%20semester/DSA)
+  - 👨‍💻 [Object Oriented Programming](First%20year/Second%20semester/OOP)
   - 📝 Automata Theory
   - 💻 Individual Project and Team Project
   - 👨‍💻 Web Programming
