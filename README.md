@@ -1,7 +1,7 @@
 - 📂 Semester 1
   - 🧮 [Computational Logic](First%20year/First%20Semester/Computational%20Logic)
   - 💻 [Computer Architecture](First%20year/First%20Semester/Computer%20Architecture)
-  - 👨‍💻 Fundamentals of Programming
+  - 👨‍💻 [Fundamentals of Programming](First%20year/First%20Semester/Fundamentals%20of%20Programming)
   - ➕ [Maths Fundamentals](First%20year/First%20Semester/Maths%20Fundamentals)
   - 📂 [Alghorithms and Data Structures](First%20year/First%20Semester/Alghorithms%20and%20Data%20Structures)
 - 📂 Semester 2
@@ -10,8 +10,7 @@
   - 📝 Automata Theory
   - 💻 [Individual Project and Team Project](First%20year/Second%20semester/Individual%20Project%20and%20Team%20Project/Proiect_Programare_Individual)
   - 👨‍💻 Web Programming
-  - ➕ Calculus
-
+  - ➕ [Calculus](First%20year/Second%20semester/Calculus)
 <br>
 <br>
 <br>
