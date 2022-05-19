@@ -1,0 +1,122 @@
+-
+Maldive
+Kuredu Island Resort & Spa
+1
+700
+3
+5
+4.9
+323
+1
+-
+Turcia
+Hotel Turcia
+2
+400
+123
+4
+4.3
+123
+1
+-
+Bulgaria
+Hotel Bulgaria Wellness & Spa
+3
+780
+221
+4
+4.2
+145
+1
+-
+Viena
+Grand Hotel Wien
+4
+300
+421
+3
+3.5
+324
+1
+-
+Austria
+Hotel Schloss DurnsteinSe
+5
+345
+411
+3
+3.8
+329
+1
+-
+Austria
+Hotel Edelweiss
+6
+345
+677
+3
+3.8
+329
+1
+-
+Austria
+Grand Hotel Austria Luxury & Spa
+7
+10
+411
+3
+3.8
+329
+1
+-
+Grecia
+Cavo Orient Beach Hotel & SuitesSe
+8
+345
+213
+3
+3.5
+329
+1
+-
+Austria
+Grand Hotel Austria Luxury & Spa
+9
+345
+234
+3
+4.8
+329
+1
+-
+America
+Mediterranean Palace
+10
+345
+411
+3
+4.7
+329
+1
+-
+Mexic
+Sunrock Condo Hotel
+11
+20
+411
+3
+3.8
+329
+1
+-
+Mexic
+Casa Kaoba Hotel & Suites
+12
+651
+800
+4
+4.8
+901
+0
+-
+

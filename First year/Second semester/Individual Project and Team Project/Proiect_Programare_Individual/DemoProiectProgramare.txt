@@ -1,0 +1,72 @@
+
+
+
+
+
+************* [DEMO UTILIZATOR 1] **********************************
+
+Nume utilizator (username): Rusu_Emanuel
+Parola: re31pP_e
+Adresa gmail: rusuemanuel191@gmail.com
+Numar de telefon: 0765435676
+Locatia dorita: Austria
+ID locatie: 5 (Hotel Schloss DurnsteinSe)
+Numar Persoane: 3
+Nume persoana 1: Emanuel
+Nume persoana 2: Gabriel
+Nume persoana 3: Cristian
+Data: 10/07/2022
+Numar card: 4497563062658348
+CVV: 510
+Tip card: Visa
+Tara: Romania
+Data Expirare: 02/2023
+Adresa: Strada Pacii nr. 32, jud. Bihor, Oradea
+Parere hotel: Privelistea superba, plaja curata, personal amabil
+
+*******************************************************************
+
+
+************* [DEMO UTILIZATOR 2] **********************************
+
+Nume utilizator (username): Rusu_Emanuel_2
+Parola: Ab123re31pP_e
+Adresa gmail: rusuemanuel9100@gmail.com
+Numar de telefon: 0798434432
+Locatia dorita: ADubai
+ID locatie: 1 (Kuredu Island Resort & Spa)
+Numar Persoane: 2
+Nume persoana 1: Adrian
+Nume persoana 2: Constantin
+Data: 20/07/2022
+Numar card: 4211449923077487
+CVV: 456
+Tip card: Visa
+Tara: Romania
+Data Expirare: 03/2029
+Adresa: Strada Unirii nr. 12, jud. Bihor, Oradea
+Parere hotel: Un loc superb
+*******************************************************************
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+************* [DEMO ADMINISTRATOR] **********************************
+
+Locatie: Romania
+Nume hotel: Arena Regia Hotel & Spa - Marina Regia Residence
+ID: - se adauga automat
+Pret: 988 (pe noapte)
+Locuri disponibile: 400
+Numar de stele: 5
+Medie pareri clienti: 4.6
+Numar pareri: 722
+Disponibilitate: 1 (este disponibil)
+
+*******************************************************************
