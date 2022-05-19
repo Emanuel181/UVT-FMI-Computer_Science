@@ -1,8 +1,8 @@
 - 📂 Semester 1
   - 🧮 [Computational Logic](First%20year/First%20Semester/Computational%20Logic)
-  - 💻 Computer Architecture
+  - 💻 [Computer Architecture](First%20year/First%20Semester/Computer%20Architecture)
   - 👨‍💻 Fundamentals of Programming
-  - ➕ Maths Fundamentals
+  - ➕ [Maths Fundamentals](First%20year/First%20Semester/Maths%20Fundamentals)
   - 📂 Alghorithms and Data Structures
 - 📂 Semester 2
   - 📂 [Data Structures and Alghorithms](First%20year/Second%20semester/DSA)
