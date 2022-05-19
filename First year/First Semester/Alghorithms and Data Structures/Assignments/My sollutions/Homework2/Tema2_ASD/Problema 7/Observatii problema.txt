@@ -1,0 +1,1 @@
+Programul functioneaza in ipoteza ca aexista 2 submultimi care sa aiba suma k, nu este de ajuns ca doar suma totala a multimii initiale sa fie 2k
