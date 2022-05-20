@@ -6,7 +6,7 @@
   - 📂 [Alghorithms and Data Structures](First%20year/First%20Semester/Alghorithms%20and%20Data%20Structures)
 - 📂 Semester 2
   - 📂 [Data Structures and Alghorithms](First%20year/Second%20semester/DSA)
-  - 👨‍💻 [Object Oriented Programming](First%20year/Second%20semester/OOP)
+  - 👨‍💻 [Object Oriented Programming](First%20year/Second%20semester/Object%20Oriented%20Programming)
   - 📝 [Automata Theory](First%20year/Second%20semester/Automata%20Theory)
   - 💻 [Individual Project and Team Project](First%20year/Second%20semester/Individual%20Project%20and%20Team%20Project/Proiect_Programare_Individual)
   - 👨‍💻 [Web Programming - 2 Person Project](https://github.com/AlexandruAndrita/WebProject)
