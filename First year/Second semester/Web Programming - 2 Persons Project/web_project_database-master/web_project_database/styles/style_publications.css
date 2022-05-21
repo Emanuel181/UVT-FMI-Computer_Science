@@ -1,0 +1,170 @@
+body{
+  font-family: "Times New Roman";
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.btn-grad {
+   background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+   margin: 10px;
+   padding: 5px 15px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   font-size: 30px;
+   margin-left: 80px;
+   margin-right: 80px;
+  }
+
+ .btn-grad:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+
+.solid{
+  border-top: 3px solid border;
+  border-radius: 5px;
+  margin-left:80px;
+  margin-right:80px;
+  margin-bottom: 20px;
+}
+
+table,th,td{
+    border:3px;
+    border-color: white;
+    margin-left:80px;
+    margin-right: 80px;
+    text-align: center;
+    border-style: solid;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+th,td{
+  background-color: #96D4D4;
+  width: 100px;
+}
+
+
+h2{
+  text-align: centered;
+  vertical-align: middle;
+}
+
+.listMenu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #668cff;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color:black;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px;
+}
+
+li a:hover{
+  background-color: #7575a3;
+  border-radius: 10px;
+}
+
+.listSubMenu{
+  list-style-type: none;
+  position: absolute;
+  background-color: #668cff;
+  margin-left: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.homepageOption{
+  float: right;
+}
+
+ .subMenu {
+  display: none;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.listMenu li:hover .subMenu {
+  display: block;
+  color:black;
+  border-radius: 10px;
+}
+
+#goToTopButton{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #F5961E;
+  color: black;
+  cursor: pointer;
+  padding: 13px;
+  border-radius: 10px;
+}
+
+#goToTopButton:hover{
+  background-color: #7575a3;
+}
+
+.tabel{
+  width: 90%;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 90%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 87.5%;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 10px;
+}
+
+.publicationLink{
+  text-decoration: none;
+  color:black;
+}

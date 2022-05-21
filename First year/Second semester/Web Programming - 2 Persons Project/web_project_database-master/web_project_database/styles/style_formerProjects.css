@@ -1,0 +1,150 @@
+body{
+  font-family: "Times New Roman";
+}
+
+.image {
+  background-image: url("images/Headers/formerProjectsHeader.jpg");
+  height:450px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  position: relative;
+  opacity: 1.0;
+  background-repeat: no-repeat;
+}
+
+.left{
+  position: absolute;
+  top:8px;
+  left: 10px;
+}
+
+.uvtImage{
+  width:50px;
+  height:50px;
+}
+
+.centered{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-52%,-90%);
+  font-size: 20px;
+  color:#EC8E1D;
+  opacity: 1.0;
+}
+
+.formerProjectsTitle{
+  color:black;
+  letter-spacing: 3px;
+  color:#F5961E;
+  font-size: 30px;
+}
+
+
+.content{
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 10px;
+}
+
+.dropdownContent
+{
+  color:black;
+  font-size: 15px;
+  display:none;
+  overflow: hidden;
+  background-color: #B6DCE7;
+  margin-bottom:15px;
+  border-radius: 10px;
+}
+
+.collapsibleButton{
+  cursor:pointer;
+  padding:15px;
+  width:100%;
+  border:none;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.active, .collapsibleButton:hover{
+  background-color: #7575a3;
+  border-radius: 10px;
+  color:white;
+}
+
+table,th,td{
+  text-align: center;
+  border-collapse: collapse;
+  border:none;
+}
+
+table{
+  width: 100%;
+}
+
+.listMenu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #668cff;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.listSubMenu{
+  list-style-type: none;
+  position: absolute;
+  background-color: #668cff;
+  margin-left: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.homepageOption{
+  float: right;
+}
+
+ .subMenu {
+  display: none;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.listMenu li:hover .subMenu {
+  display: block;
+  color:black;
+  border-radius: 10px;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color:black;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px;
+}
+
+li a:hover{
+  background-color: #7575a3;
+  border-radius: 10px;
+}
+
+.projectNameClass{
+  width:50%;
+  border-bottom: 3px solid black;
+}
+
+.descriptionClass{
+  width:50%;
+  border-bottom: 3px solid black;
+}
