@@ -9,7 +9,7 @@
   - 👨‍💻 [Object Oriented Programming](First%20year/Second%20semester/Object%20Oriented%20Programming)
   - 📝 [Automata Theory](First%20year/Second%20semester/Automata%20Theory)
   - 💻 [Individual Project and Team Project](First%20year/Second%20semester/Individual%20Project%20and%20Team%20Project)
-  - 👨‍💻 [Web Programming - 2 Person Project](https://github.com/AlexandruAndrita/WebProject)
+  - 👨‍💻 [Web Programming - 2 Person Project](First%20year/Second%20semester/Web%20Programming%20-%202%20Persons%20Project/web_project_database-master/web_project_database)
   - ➕ [Calculus](First%20year/Second%20semester/Calculus)
 <br>
 <br>
