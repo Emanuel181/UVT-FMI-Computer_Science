@@ -24,4 +24,4 @@ All of my university lectures, seminaries and laboratories ordered to help organ
 <br>
 🌐: https://www.uvt.ro/ro/
 
-🌐: https://www.info.uvt.ro/en/faculty-of-mathematics-and-computer-science/
+🌐: https://www.info.uvt.ro/ena
