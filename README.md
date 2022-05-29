@@ -1,3 +1,5 @@
+All of my university lectures, seminaries and laboratories ordered to help organise studying.
+
 - 📂 Semester 1
   - 🧮 [Computational Logic](First%20year/First%20Semester/Computational%20Logic)
   - 💻 [Computer Architecture](First%20year/First%20Semester/Computer%20Architecture)
@@ -22,4 +24,4 @@
 <br>
 🌐: https://www.uvt.ro/ro/
 
-🌐: https://www.info.uvt.ro/en/faculty-of-mathematics-and-computer-science/
+🌐: https://www.info.uvt.ro/en/
