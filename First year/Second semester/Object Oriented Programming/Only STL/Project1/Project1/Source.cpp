@@ -6,6 +6,27 @@
 #include <map>
 using namespace std;
 
+/*
+
+[TASK]:
+
+Creati o lista cu numele unor personane (se considera ca un element al listei are urmatoarea forma ”nume prenume”) si relizati urmatoarele operatii
+
+Afisati lista de nume folosind iteratori
+
+Afisati lista de nume folosind un iterator de iesire (ostream_iterator)
+
+Afisati numarul de elemente stocate in lista
+
+Sortati descrescator lista de nume. Afisati lista dupa sortare
+
+Inversati elementele listei
+
+Numarati cate nume din lista contin un prenume citit de la tastatura
+
+Creati un map în care se stocheaza prenumele distincte si numarul lor de aparitii in lista
+
+*/
 
 bool descending(string a, string b)
 {
