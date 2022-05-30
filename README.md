@@ -1,4 +1,4 @@
-All of my university lectures, seminaries and laboratories ordered to help organise studying.
+All of my university work, lectures, seminaries and laboratories ordered to help organise studying.
 
 - 📂 Semester 1
   - 🧮 [Computational Logic](First%20year/First%20Semester/Computational%20Logic)
