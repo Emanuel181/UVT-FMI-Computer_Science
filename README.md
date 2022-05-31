@@ -1,4 +1,4 @@
-All of my university work, lectures, seminaries and laboratories ordered to help organise studying.
+All of my university work, lectures, seminaries and laboratories neatly ordered to help organise studying.
 
 - 👨‍🎓 Year 1
   - 📂 Semester 1
