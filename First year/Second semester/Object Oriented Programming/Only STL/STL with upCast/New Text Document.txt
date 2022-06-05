@@ -1,0 +1,309 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <unordered_map>
+#include <algorithm>
+
+
+class Joc
+{
+protected:
+    unsigned long long m_year;
+    double m_pret;
+    std::string m_nume;
+public:
+    Joc(const unsigned long long, const double, const std::string);
+    unsigned long long GetYear()const;
+    double GetPret()const;
+    std::string GetNume();
+
+    friend std::ostream& operator << (std::ostream&, const Joc&);
+    virtual std::ostream& afisare(std::ostream&)const;
+};
+
+
+Joc::Joc(const unsigned long long year = 0, const double pret = 0.0, const std::string nume = "\0")
+    :m_year{ year }, m_pret{ pret }, m_nume{ nume }{}
+
+
+class JocArcade : public Joc
+{
+private:
+    std::string m_firmaProducatoare;
+public:
+    JocArcade(const std::string, const unsigned long long year, const double pret, const std::string nume);
+    std::string GetFirmaProducatoare()const;
+    friend std::ostream& operator << (std::ostream&, const JocArcade&);
+    virtual std::ostream& afisare(std::ostream&)const;
+};
+
+
+JocArcade::JocArcade(const std::string firmaProducatoare, const unsigned long long year, const double pret, const std::string nume) : Joc(year, pret, nume)
+{
+    m_firmaProducatoare = firmaProducatoare;
+    m_nume = nume;
+}
+
+
+
+std::ostream& JocArcade::afisare(std::ostream& COUT)const
+{
+
+    // Joc::afisare(COUT);
+    COUT << this->m_nume << ' ' << " anAparitie=" << this->m_year << ' ' << "pret=" << this->m_pret << " prodicator=" << this->m_firmaProducatoare << '\n';
+
+    return COUT;
+}
+
+
+std::ostream& operator << (std::ostream& COUT, const JocArcade& obj) { return obj.afisare(COUT); }
+
+
+std::string JocArcade::GetFirmaProducatoare()const { return m_firmaProducatoare; }
+
+
+std::ostream& Joc::afisare(std::ostream& COUT)const
+{
+
+    COUT << this->m_nume << ' ' << "anAparitie=" << this->m_year << ' ' << "pret=" << this->m_pret << '\n';
+
+    return COUT;
+}
+
+
+std::ostream& operator << (std::ostream& COUT, const Joc& obj) { return obj.afisare(COUT); }
+
+
+unsigned long long Joc::GetYear()const { return m_year; }
+
+
+double Joc::GetPret()const { return m_pret; }
+
+
+std::string Joc::GetNume() { return m_nume; }
+class JocStrategie :public Joc
+{
+protected:
+    std::string m_tema;
+    std::string m_nume;
+public:
+    JocStrategie(const std::string tema, const unsigned long long year, const double pret, const std::string nume);
+    std::string GetTema()const;
+    friend std::ostream& operator << (std::ostream&, const JocStrategie&);
+    virtual std::ostream& afisare(std::ostream&)const;
+    operator Joc()const;
+};
+
+JocStrategie::JocStrategie(const std::string tema, const unsigned long long year, const double pret, const std::string nume) : Joc(year, pret, nume)
+{
+    m_tema = tema;
+    m_nume = nume;
+}
+
+
+std::ostream& JocStrategie::afisare(std::ostream& COUT)const
+{
+    // Joc::afisare(COUT);
+
+    /* upCast
+    Joc p = *this;
+    p.afisare(COUT);
+    */
+
+    COUT << this->m_nume << ' ' << " anAparitie=" << this->m_year << ' ' << "pret= " << this->m_pret << " gen=" << this->m_tema << '\n';
+
+    return COUT;
+}
+
+
+std::ostream& operator << (std::ostream& COUT, const JocStrategie& obj) { return obj.afisare(COUT); }
+
+
+std::string JocStrategie::GetTema()const { return m_tema; }
+
+
+JocStrategie::operator Joc()const
+{
+    return Joc(m_year, m_pret, m_nume);
+}
+
+
+class WarCraft : public JocStrategie
+{
+private:
+    std::string m_versiune;
+    unsigned long long m_anAparitie;
+    std::vector <std::string> m_caracteristici;
+public:
+    WarCraft(const std::string, const unsigned long long, const std::string, const std::string tema,
+        const unsigned long long, const double, const std::string);
+    std::string GetVersiune()const;
+    unsigned long long GetAnAparitie()const;
+    std::vector <std::string> GetCaracteristici()const;
+    friend std::ostream& operator << (std::ostream&, const WarCraft&);
+    virtual std::ostream& afisare(std::ostream&)const;
+};
+
+
+WarCraft::WarCraft(const std::string versiune, const unsigned long long anAparitie, const std::string arr, const std::string tema,
+    const unsigned long long year, const double pret, const std::string nume) : JocStrategie(tema, year, pret, nume)
+{
+    m_versiune = versiune;
+    m_anAparitie = anAparitie;
+
+    m_caracteristici.push_back(arr);
+}
+
+
+std::ostream& WarCraft::afisare(std::ostream& COUT)const
+{
+    // Joc::afisare(COUT);
+
+    COUT << m_versiune << ' ' << "anAparitie=" << m_anAparitie << ' ' << "pret=" << m_pret << " gen=" << m_tema << ' ' << "istoric=";
+    for (auto it : m_caracteristici) std::cout << it << ' ';
+
+    COUT << '\n';
+
+    return COUT;
+}
+
+
+std::ostream& operator << (std::ostream& COUT, const WarCraft& obj) { return obj.afisare(COUT); }
+
+
+std::string WarCraft::GetVersiune()const { return m_versiune; }
+
+
+unsigned long long WarCraft::GetAnAparitie()const { return m_anAparitie; }
+
+
+std::vector <std::string> WarCraft::GetCaracteristici()const { return m_caracteristici; }
+
+
+void initArcade(std::vector <Joc*>& jocuri, std::unordered_map <int, int>& dict)
+{
+    std::string nume; getline(std::cin, nume);
+    unsigned long long an; std::cin >> an; std::cin.ignore();
+
+    if (dict.find(an) != dict.end()) ++dict[an];
+    else dict[an] = 1;
+
+    double pret; std::cin >> pret; std::cin.ignore();
+
+    std::string firma; getline(std::cin, firma);
+    jocuri.push_back(new JocArcade(firma, an, pret, nume));
+}
+
+
+void initStrategie(std::vector <Joc*>& jocuri, std::unordered_map <int, int>& dict)
+{
+    std::string nume; getline(std::cin, nume);
+    unsigned long long an; std::cin >> an; std::cin.ignore();
+
+    if (dict.find(an) != dict.end()) ++dict[an];
+    else dict[an] = 1;
+
+    double pret; std::cin >> pret; std::cin.ignore();
+
+    std::string tema; getline(std::cin, tema);
+    jocuri.push_back(new JocStrategie(tema, an, pret, nume));
+}
+
+
+void initWarCraft(std::vector <Joc*>& jocuri, std::unordered_map <int, int>& dict)
+{
+    std::string versiune; getline(std::cin, versiune);
+    unsigned long long an; std::cin >> an; std::cin.ignore();
+
+    if (dict.find(an) != dict.end()) ++dict[an];
+    else dict[an] = 1;
+
+    double pret; std::cin >> pret; std::cin.ignore();
+
+    std::string tema; getline(std::cin, tema);
+    std::string infos; getline(std::cin, infos);
+    jocuri.push_back(new WarCraft(versiune, an, infos, tema, an, pret, versiune));
+}
+
+
+void initJoc(std::vector <Joc*>& jocuri, std::unordered_map <int, int>& dict)
+{
+    std::string nume; getline(std::cin, nume);
+    unsigned long long an; std::cin >> an; std::cin.ignore();
+
+    if (dict.find(an) != dict.end()) ++dict[an];
+    else dict[an] = 1;
+
+    double pret; std::cin >> pret;
+    jocuri.push_back(new Joc(an, pret, nume));
+}
+
+
+
+void init(std::vector <Joc*>& jocuri, std::unordered_map <int, int>& dict)
+{
+    int n; std::cin >> n; std::cin.ignore();
+
+    for (int i = 0; i < n; ++i)
+    {
+        std::string str;
+        std::cin >> str; std::cin.ignore();
+
+        if (str == "Joc") { initJoc(jocuri, dict); }
+
+        else if (str == "Arcade") { initArcade(jocuri, dict); }
+
+        else if (str == "Strategie") { initStrategie(jocuri, dict); }
+
+        else if (str == "WarCraft") { initWarCraft(jocuri, dict); }
+
+        else throw "Tip necunoscut";
+    }
+}
+
+
+void afisare(const std::vector <Joc*>& jocuri, std::unordered_map <int, int>& dict)
+{
+    for (Joc* it : jocuri) { std::cout << *it; }
+
+    std::cout << "\n";
+
+    for (auto it : dict)
+    {
+        std::cout << it.first << " - " << it.second << '\n';
+    }
+}
+
+
+bool ascending(Joc* a, Joc* b)
+{
+    if (a->GetPret() == b->GetPret()) return a->GetNume() < b->GetNume();
+    else return a->GetPret() < b->GetPret();
+}
+
+
+void sortare(std::vector <Joc*> jocuri)
+{
+    sort(jocuri.begin(), jocuri.end(), ascending);
+
+    std::cout << "\n";
+
+    for (Joc* it : jocuri) { std::cout << *it; }
+}
+
+
+int main()
+{
+    std::vector <Joc*> jocuri;
+    std::unordered_map <int, int> dict;
+
+    init(jocuri, dict);
+
+    std::cout << "\n";
+
+    afisare(jocuri, dict);;
+
+    sortare(jocuri);
+
+    return 0;
+}
