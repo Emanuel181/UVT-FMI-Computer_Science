@@ -12,7 +12,7 @@ All of my university work, lectures, seminaries and laboratories neatly ordered 
     - 👨‍💻 [Object Oriented Programming](First%20year/Second%20semester/Object%20Oriented%20Programming)
     - 📝 [Automata Theory](First%20year/Second%20semester/Automata%20Theory)
     - 💻 [Individual Project and Team Project](First%20year/Second%20semester/Individual%20Project%20and%20Team%20Project)
-    - 👨‍💻 [Web Programming](https://github.com/Emanuel181/web_project_database)
+    - 👨‍💻 [Web Programming](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/First%20year/Second%20semester/Web%20Programming)
     - ➕ [Calculus](First%20year/Second%20semester/Calculus)
 <br>
 <br>
