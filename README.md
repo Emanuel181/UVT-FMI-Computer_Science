@@ -1,5 +1,7 @@
 All of my university work, lectures, seminaries and laboratories neatly ordered to help organise studying.
 
+# 🎓 WUT - Bachelor in Computer Science
+
 - 👨‍🎓 Year 1
   - 📂 Semester 1
     - 🧮 [Computational Logic](First%20year/First%20Semester/Computational%20Logic)
