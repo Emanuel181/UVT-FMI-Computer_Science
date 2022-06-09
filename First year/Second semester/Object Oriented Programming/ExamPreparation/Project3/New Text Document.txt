@@ -1,0 +1,7 @@
+ Fie clasa Plantă care are ca atribute zona în care crește, specie și preț. Din ea se derivă clasele Pom care are în plus atributul referitor la informația dacă este fructifer sau nu și clasa Arbust care are în plus atributul dacă este ornamental sau nu. Folosind funcții creați un program care permite
+
+citirea de la tastatură a unui șir (listă/vector) de plante (plante, pomi, arbuști)
+folosind algoritmul count_if numărați câti arbuști sunt în șir
+folosind un algoritm din STL, să se afișeze plantele care au prețul mai mare decât o valoare
+definiți o funcție care întoarce câți arbuști ornamentali și câți arbuști neornamentalis sunt în vectorul de pomi.
+identificații specile unice de plante care apar în șir
