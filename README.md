@@ -10,7 +10,7 @@ All of my university work, lectures, seminaries and laboratories neatly ordered 
     - ➕ [Maths Fundamentals](First%20year/First%20Semester/Maths%20Fundamentals)
     - 📂 [Alghorithms and Data Structures](First%20year/First%20Semester/Alghorithms%20and%20Data%20Structures)
   - 📂 Semester 2
-    - 📂 [Data Structures and Alghorithms](First%20year/Second%20semester/DSA)
+    - 📂 [Data Structures and Alghorithms](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/First%20year/Second%20semester/Data%20Structures%20and%20Alghorithms)
     - 👨‍💻 [Object Oriented Programming](First%20year/Second%20semester/Object%20Oriented%20Programming)
     - 📝 [Automata Theory](First%20year/Second%20semester/Automata%20Theory)
     - 💻 [Individual Project and Team Project](First%20year/Second%20semester/Individual%20Project%20and%20Team%20Project)
