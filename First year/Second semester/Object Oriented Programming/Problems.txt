@@ -1,0 +1,107 @@
+1. Fie următoarea ierarhie de clase: clasa Aparat Frigorific din care se derivă frigider şi congelator care sunt supraclase pentru combină.
+Din frigider se derivă frigider side by side şi din congelator ladă frigorifică.
+
+Creează un sir de aparate frigorifice şi afişează informaţiile despre ele
+
+Numără numărul de lăzi frigorifice şi frigidere din şir.
+
+Calculează preţul mediu al aparatelor frigorifice
+
+Afişează capacitatea medie a fiecărui tip de aparat frigorific
+
+Găseşte aparatele frigorifice a căror preţ se încadrează într-un interval
+
+Obs: Fiecare cerinţă va fi implementată într-o metodă. Adăugaţi 1-3 atribute fiecărei clase.
+
+2.  Fie clasa Băutură care ca atribute preț și data expirări. Din clasa Băutură se derivă clasele Suc care are ca atribute informația dacă este sau nu carbogazos și dacă este sau nu 100% natural și clasa Bulion care are ca atribut lista de ingrediente care ii conferă aromă. 
+
+ Creați clasele, creați obiecte de tipul claselor și afișați-le
+Creați un șir de Băuturi care conține băuturi de toate felurile și afișați conținutul șirului
+Scrieți o funcție care afișează băuturile din șir care au data de expirare într-un interval de timp primit ca parametru
+Scrieți șirul de pachete într-un fișier de tip text, codificate sub formă de JSON
+ Câte obiecte de tip Suc se află în șir
+ Identificați sucurile care sunt 100% naturale și necarbogazoase
+ Pentru fiecare ingredient diferit a băuturilor de tip bulion din șir afișați băuturile care îl conțin
+
+3. Fie clasa Eveniment care are ca atribute locația în care se desfășoară și perioada din zi când se desfășoară (dimineața, prânz, dupămasă, seară). Din clasa eveniment se derivă clasa Vernisaj care are ca atribute numele expoziției și clasa cocteil care are ca atribute meniul.
+
+Creați clasele, creați obiecte de tipul claselor și afișați-le
+Creați un șir de evenimente care conține evenimente  de toate felurile și afișați conținutul șirului
+Scrieți o funcție care creează o nouă colecție care conține toate vernisajele din șir
+Pentru fiecare perioadă distinctă din zi în care se desfășoară un eveniment, afișați lista de evenimente în ordine alfabetică a locației
+Câte elemente de tip cocteil se află în șir
+Identificați vernisajele din șir care au numele mai lung decât un număr n de caractere
+Afișați cocteilurile din șir care au în meniu o mulțime de mâncăruri care este primită ca parametru a funcție
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Fie următoarea ierarhie de clase: clasa Animal care este clasă de bază pentru Mamifer şi Acvatic. Clasele Mamifer şi Acvatic sunt supraclase pentru Delfin şi Balenă. Din clase Mamifer este derivată casa Pisică. Din clasa Acvatic este derivată clasa Ştiucă.   
+
+Să se realizeze o aplicaţie care:   
+
+Creează un sir de animale şi afişează informaţiile despre ele          
+Determină numărul de Delfini şi Balene din şir.   
+Calculează numărul mediu de copii al animalelor acvatice care sunt mamifere   
+ Afişează mamiferele din şir care sunt cele mai bătrâne pentru fiecare specie   
+Afişează pentru fiecare specie numărul de animale care au copii şi numărul de animale care nu au copii  
+Obs: Fiecare cerinţă va fi implementată într-o metodă. Adăugaţi 1-3 atribute fiecărei clase.   
+
+2. Fie următoarea ierarhie de clase: clasa Vehicul din care se derivă clasele Naval şi Terestru. Din clasele naval şi Terestru se derivă VehiculPePernaDeAer. Clasa Naval este supraclasă la Vapor şi terestru la Căruţă şi Tir.   
+
+Să se realizeze o aplicaţie care:   
+
+ Creează un șir de vehicule şi afişează informaţiile despre ele  
+ Determină numărul de Biciclete şi VehiculPePernaDeAer din şir.  
+Calculează viteza medie a vehiculelor terestre din şir  
+Afişează vehiculele navale care sunt cele mai scumpe  
+Afişează pentru fiecare tip de vehicul preţul minim   
+Obs: Fiecare cerinţă va fi implementată într-o metodă. Adăugaţi 1-3 atribute fiecărei clase.     
+
+3. Fie clasa AparatElectronic care are ca atribute firma producatoare și preț. Din ea se derive clasa blender care are ca atribute volum maxim și clasa mașină de măcinat roși care are ca tribute numărul de cuțite. Din clasele bender și mașină de măcinat roși se derive clasa Robot de bucătărie care ca atribute culoare.
+
+Creați clasele, creați obiecte de tipul claselor și afișați-le
+Creați un șir de AparateElectronice care conține aparate electronice de toate felurile și afișați conținutul șirului
+Scrieți o funcție care afișează aparatele electronice din șir care au volumul mai mare decât o valoare primită ca parametru
+Scrieți șirul de aparate electronice într-un fișier de tip text codificate sub formă de XML
+Câte elemente de tip mașină de măcinat roși se află în șir
+Identificați roboți de bucătărie din șir care au culoarea într-o mulțime de culori primită ca parametru
+Numărați câte aparate electronice din șir au preț maxim.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1.     Definiți o clasă Produs care are ca atribute cantitate, preț și nume. Realizați următoarele operații:
+
+Supraîncărcați operatorul %= care să permită creșterea prețului cu un procent
+Supraîncărcați operatorii +=, -= care să permită creșterea/scăderea cantității cu o valoare
+Supraîncărcați operatorul de scriere pentru a permite afișarea unui produs
+Creați un șir de produse și sortați șirul descrescător după nume, folosiți supraîncarcarea operatorilor relaționali pentru a compara produsele
+2.     Realizaţi o aplicaţie care creează clasa Depozit, ce conţine o listă de produse.  
+
+Adăugaţi atribute claselor astfel încât să aibă fiecare cel puţin 2-3 
+Creaţi o listă de depozite şi identificaţii depozitul cu cele mai multe produse  
+Supraîncărcaţi operatorul de scriere  
+Supraîncărcaţi operatorii +=/-= pentru creşterea/scăderea cantităţii unui produs din depozit  
+Supraîncărcaţi operatorul [] pentru a obţine informaţii despre un produs f.  
+3. Definiţi o clasă DataCalendaristica(zi/luna/an). Realizaţi un program care:
+
+compară două date calendaristice 
+
+afişează data calendaristica după ce s-au adăugat la ea un număr de zile (supraincarcarea  operatorului +=)
+
+afişează data calendaristica după ce s-au scăzut la ea un număr de zile  (supraincarcarea operatorului -=)
+
+poate extrage ziua, luna, anul din data.
+
+4. Definiți clasa NumărMare (BigNumber) care să poată fi folosită pentru a lucra cu numere mari. Clasa trebuie să permită următoarele operații:
+
+Adunarea (supraincarcarea operatorului +)/Scaderea (supraincarcarea operatorului -)/Imultirea (supraincarcarea operatorului *) a două  numere mari
+Imultirea(*) cu un scalar
+Afisarea folosind operatorul de scriere
+Citirea folosind operatorul de citire
+Verificarea daca două numere mari sunt egale (supraincarcarea operatorului ==)
+Compara doua numere (supraincarcarea operatorului <)
+Convertește un număr mare la float (similar cum se face conversia de la long la int cand se depaseste spatiul de stocare pentru int)
+
+5. Realizaţi un program care desenează pe ecran dreptunghiuri. Pentru a rezolva cerința să se  scrie o clasă Dreptunghi iar pentru desenare se supraîncărca operatorul <<. Supraincarcati operatorul de citire pentru a citi laturile dreptunghilui. Supraincarcati operatorul ! pentru a testa daca un dreptunghi este patrat sau nu.
+
+6. Realizati un program care implementeaza structura de date tablou dinamic de caractere. Un tablou dinamic este un tablou care își mărește capacitatea când nu mai are spațiu pentru a dauga elemente. Supraincarcati operatorii +, += pentru a adauga caractere până sfârșitul tabloului. Supraincarcati operatorul de scriere pentru afisarea obiectelor. Supraincarcati operatorul de indexare pentru a accesa un element al tabloului. Supraincarcati operatorul de cast care permite transformarea sirului de caractere in numar daca este posibil.
