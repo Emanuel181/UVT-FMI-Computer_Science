@@ -16,6 +16,9 @@ All of my university work, lectures, seminaries and laboratories neatly ordered 
     - 💻 [Individual Project and Team Project](First%20year/Second%20semester/Individual%20Project%20and%20Team%20Project)
     - 👨‍💻 [Web Programming](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/First%20year/Second%20semester/Web%20Programming)
     - ➕ [Calculus](First%20year/Second%20semester/Calculus)
+- 👨‍🎓 Year 2
+  - Semester 2
+      comming soon
 <br>
 <br>
 <br>
@@ -25,6 +28,6 @@ All of my university work, lectures, seminaries and laboratories neatly ordered 
 <br>
 <br>
 <br>
-🌐: https://www.uvt.ro/ro/
+🌐Romanian: https://www.uvt.ro/ro/
 
-🌐: https://www.info.uvt.ro/en/
+🌐English: https://www.info.uvt.ro/en/
