@@ -1,0 +1,43 @@
+Project title: Seeing AI
+
+
+
+Project URL: https://www.microsoft.com/en-us/ai/seeing-ai
+
+
+
+How AI is used in this project:
+
+          This project uses Optical Character Recognition (OCR) for reading text and scanning documents.
+ Face recognition is used to identify the people, their age, how far they are, and their emotions, and then a
+ short description is provided. You can create a photo library of friends and family, and the app will tell you 
+when someone recognized is nearby. It has a database of products and can recognize them by bar code. Users are guided 
+to find the barcode by giving a beep when it is visible and then identifying the product. AI is also used to describe 
+the view in front of you and recognizes different currencies, both with the help of object detection. It can identify 
+colors and can recognize images in other applications. It can read handwritten text.
+
+ 
+
+Why this may help to achieve one of the SDGs:
+
+          This project covers the tenth United Nations' Sustainable Development Goal, called "Reduce inequality" because 
+it helps reduce the inequality among people who can't see correctly; therefore, it empowers people with vision disabilities
+ to live as closely as possible to normal. In that way, AI assures inclusiveness, and people with disabilities will no longer
+ consider themselves forgotten by the world. This application has many videos about how visually impaired people use it and many 
+reviews, so it had a significant impact. I also consider that this application covers the third software development goal, "Good 
+health and well-being". Now, visually impaired people feel better because they see how they begin to be again a part of society. 
+
+ 
+
+Why this project inspires/excites you personally: 
+
+          I am inspired by the people who are now happy and have shared their experiences with this application. I am also 
+inspired by the fact that such a big problem has a good solution now, and it gave me hope and motivation that many other
+ remarkable things are possible, and this is just the beginning. Health problems, inclusiveness, and the influence of technology 
+in the world, especially for health, have amazed me for a long time. I practiced volleyball for many years and had many accidents,
+ and I was sometimes surprised by the machines and products which helped doctors investigate and solve problems. I also know that
+ people with health problems tend not to be liked that much. However, they must be supported during hard times, so we must make 
+them feel like they are still a part of our group. I am studying in the IT field, and applications like this are a pleasure for
+ me. This project has many capabilities, so it is like a digital extension of people with visual disabilities. 
+
+
