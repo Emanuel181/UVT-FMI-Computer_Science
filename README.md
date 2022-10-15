@@ -32,9 +32,17 @@ All of my university work, lectures, seminaries and laboratories neatly ordered 
 <br>
 
 ![image](https://user-images.githubusercontent.com/92999481/169172665-3f6d4261-fbe1-49f9-a9a7-93ffd468e8a4.png)
-<br>
-<br>
-<br>
+
 🌐Romanian: https://www.uvt.ro/ro/
 
 🌐English: https://www.info.uvt.ro/en/
+
+<br>
+
+![image](https://www.uni.at/wp-content/uploads/2013/12/JKU-Logo.jpg)
+
+🌐English: https://www.jku.at/en
+<br>
+<br>
+<br>
+
