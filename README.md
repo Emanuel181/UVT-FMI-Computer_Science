@@ -17,7 +17,7 @@ All of my university work, lectures, seminaries and laboratories neatly ordered 
     - 👨‍💻 [Web Programming](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/First%20year/Second%20semester/Web%20Programming)
     - ➕ [Calculus](First%20year/Second%20semester/Calculus)
 - 👨‍🎓 Year 2
-   - 📂 Semester 2 - Erasmus+ at Johannes Kepler Universität(JKU) Linz
+   - 📂 Semester 1 - Erasmus+ at Johannes Kepler Universität(JKU) Linz
       - 🤖 [Hands-on AI 1](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/Second%20year/First%20semester/Hands-on%20AI%201)
       - 👨‍💻 [Python](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/Second%20year/First%20semester/Python)
       - 🤖 [Responsible AI](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/Second%20year/First%20semester/Responsible%20AI)
