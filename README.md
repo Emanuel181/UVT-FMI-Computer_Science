@@ -23,7 +23,7 @@ All of my university work, lectures, seminaries and laboratories neatly ordered 
       - 🤖 Responsible AI
       - 🛠️ Software Engineering
       - 🌐 Web Engineering
-      - 📝 Data Structures and Algorithms
+      - 📝 [Data Structures and Algorithms](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/Second%20year/First%20semester/DSA)
       - 🧍 Human and Compuer Interaction
       
 <br>
