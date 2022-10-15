@@ -18,13 +18,13 @@ All of my university work, lectures, seminaries and laboratories neatly ordered 
     - ➕ [Calculus](First%20year/Second%20semester/Calculus)
 - 👨‍🎓 Year 2
    - 📂 Semester 2 - Erasmus+ at Johannes Kepler Universität(JKU) Linz
-    - 🤖 Hands-on AI 1
-    - 👨‍💻 Python
-    - 🤖 Responsible AI
-    - 🛠️ Software Engineering
-    - 🌐 Web Engineering
-    - 📝 Data Structures and Algorithms
-    - 🧍 Human and Compuer Interaction
+      - 🤖 Hands-on AI 1
+      - 👨‍💻 Python
+      - 🤖 Responsible AI
+      - 🛠️ Software Engineering
+      - 🌐 Web Engineering
+      - 📝 Data Structures and Algorithms
+      - 🧍 Human and Compuer Interaction
       
 <br>
 <br>
