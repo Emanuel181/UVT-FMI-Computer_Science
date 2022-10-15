@@ -18,13 +18,13 @@ All of my university work, lectures, seminaries and laboratories neatly ordered 
     - ➕ [Calculus](First%20year/Second%20semester/Calculus)
 - 👨‍🎓 Year 2
    - 📂 Semester 2 - Erasmus+ at Johannes Kepler Universität(JKU) Linz
-      - 🤖 Hands-on AI 1
-      - 👨‍💻 Python
-      - 🤖 Responsible AI
-      - 🛠️ Software Engineering
-      - 🌐 Web Engineering
+      - 🤖 [Hands-on AI 1](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/Second%20year/First%20semester/Hands-on%20AI%201)
+      - 👨‍💻 [Python](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/Second%20year/First%20semester/Python)
+      - 🤖 [Responsible AI](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/Second%20year/First%20semester/Responsible%20AI)
+      - 🛠️ [Software Engineering](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/Second%20year/First%20semester/Software%20Engineering)
+      - 🌐 [Web Engineering](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/Second%20year/First%20semester/Web%20Engineering)
       - 📝 [Data Structures and Algorithms](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/Second%20year/First%20semester/DSA)
-      - 🧍 Human and Compuer Interaction
+      - 🧍 [Human and Compuer Interaction](https://github.com/Emanuel181/UVT-FMI-Computer_Science/tree/master/Second%20year/First%20semester/Human%20and%20Computer%20Interaction)
       
 <br>
 <br>
